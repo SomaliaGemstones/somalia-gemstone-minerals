@@ -10,24 +10,25 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
 a{text-decoration:none;color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 22px}
 nav{position:sticky;top:0;z-index:20;background:rgba(251,250,246,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.navin{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.3px;color:var(--deep)}.brand span{color:var(--gold)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.3px;color:var(--deep);display:inline-flex;align-items:center;gap:10px}.brand span{color:var(--gold)}
+.brand img{width:42px;height:42px;object-fit:contain;display:block}
 .links{display:flex;gap:22px;font-size:14px;font-weight:700}.links a:hover{color:var(--gold)}
 .hero{background:linear-gradient(120deg,#0f2e25 0%,#1b4938 58%,#243d34 100%);color:white;padding:86px 0 80px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0 95px rgba(216,182,106,.03)}
-.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p{font-size:18px;color:#dce8e2;max-width:690px}.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 20px;border-radius:8px;font-weight:800;border:1px solid transparent}.btn.gold{background:var(--accent);color:#173328}.btn.outline{border-color:rgba(255,255,255,.35);color:#fff}
-section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:var(--muted);max-width:720px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px rgba(20,34,29,.04)}.icon{font-size:31px}.service h3{margin:12px 0 7px}.service p{color:var(--muted);margin:0}
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0 90px rgba(216,182,106,.03)}
+.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p{font-size:18px;color:#dfe9e3;max-width:680px;margin:0}.buttons{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:999px;font-weight:700}.gold{background:var(--gold);color:#14221d}.outline{border:1px solid rgba(255,255,255,.3);color:white;background:transparent}
+section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:var(--muted);font-size:17px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px rgba(20,34,29,.05)}.icon{font-size:28px;margin-bottom:8px}.service h3{margin:0 0 8px}.service p{margin:0;color:var(--muted)}
 .band{background:#f0ede4;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var(--line);padding:18px;border-radius:10px}.fact b{display:block;color:var(--deep)}
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:radial-gradient(circle at 30% 25%,#f1d48b 0 5%,#8d6b2f 8%,transparent 27%),linear-gradient(135deg,#132b23,#426b56)}.stone:nth-child(2){background:radial-gradient(circle at 65% 35%,#91b7c0 0 8%,#315d62 14%,transparent 35%),linear-gradient(135deg,#172d36,#547a7e)}.stone:nth-child(3){background:radial-gradient(circle at 35% 40%,#f1c66d 0 7%,#9e6d1f 13%,transparent 34%),linear-gradient(135deg,#2d2518,#6d5935)}.stone strong{font-size:18px;text-shadow:0 2px 8px #000}
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:12px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--deep);font-weight:700}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,#204e3e,#3d7a65)}.stone:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.08),rgba(0,0,0,.3));}
+.stone strong{position:relative;z-index:1}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:18px}
 footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 @media(max-width:760px){.links{display:none}.grid,.gallery,.about,.contact{grid-template-columns:1fr}.hero{padding-top:65px}.title{font-size:32px}.facts{grid-template-columns:1fr}.navin{height:62px}}
 </style>
 </head>
 <body>
 <nav><div class="wrap navin">
-  <a class="brand" href="#home">SOMALIA <span>GEMSTONE &amp; MINERALS CO.</span></a>
+  <a class="brand" href="#home"><img src="logo-new.png" alt="Somalia Gemstones and Minerals Co. Logo"><span>SOMALIA</span> <span>GEMSTONE &amp; MINERALS CO.</span></a>
   <div class="links"><a href="#services">Services</a><a href="#about">About</a><a href="#gallery">Minerals</a><a href="#contact">Contact</a></div>
 </div></nav>
 
@@ -56,9 +57,9 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
 
 <section class="band" id="about"><div class="wrap about">
   <div><div class="eyebrow">About the business</div><h2 class="title">Building a stronger gemstone and minerals market in Somalia.</h2>
-  <p class="lead">We provide practical gemstone and mineral services for individuals, collectors, miners, traders and buyers. Our goal is simple: help people understand their stones and make better decisions about testing and marketing.</p>
+  <p class="lead">We provide practical gemstone and mineral services for individuals, collectors, miners, traders and buyers. Our goal is simple: help people understand their stones and make better decisions.</p>
   <p class="lead">Waxaan caawinnaa cid walba oo u baahan in loo aqoonsado dhagax, macdan ama dahab, iyo dadka doonaya suuqgeynta iyo iibinta macdanta qaaliga ah.</p></div>
-  <div class="facts"><div class="fact"><b>💎 Gemstones</b>Identification & marketing</div><div class="fact"><b>🔬 Testing</b>Mineral & laboratory services</div><div class="fact"><b>🥇 Gold</b>Gold testing</div><div class="fact"><b>🇸🇴 Somalia</b>Serving the local mineral market</div></div>
+  <div class="facts"><div class="fact"><b>💎 Gemstones</b> Identification & marketing</div><div class="fact"><b>🔬 Testing</b> Mineral & laboratory services</div><div class="fact"><b>🥇 Gold</b> Verification and support</div><div class="fact"><b>🤝 Trade</b> Buying and selling guidance</div></div>
 </div></section>
 
 <section id="gallery"><div class="wrap">
@@ -80,15 +81,15 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
       <div class="contactbox">
         <h3>📸 Ready to send your specimen?</h3>
         <p>Open WhatsApp, attach your stone photos, and tell us what you would like identified or tested.</p>
-        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification%20or%20testing.%0A%0AStone%2FMaterial%3A%20%0AWhere%20found%20(if%20known)%3A%20%0AWhat%20I%20want%20to%20know%3A%20" target="_blank" rel="noopener">📲 Send Your Stone on WhatsApp</a>
+        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification." target="_blank" rel="noopener">Send on WhatsApp</a>
       </div>
     </div>
   </div>
 </section>
 
 <section id="contact"><div class="wrap contact">
-  <div><div class="eyebrow">Start a conversation</div><h2 class="title">Have a stone to check?</h2><p class="lead">Send us a message on WhatsApp. Include photos of the specimen, where it was found (if known), and what you would like to know.</p></div>
-  <div class="contactbox"><h3>Somalia Gemstone & Minerals</h3><p>Gemstone Identification • Laboratory Testing • Mineral Testing • Gold Testing • Gemstone Marketing</p><a class="btn gold" href="https://wa.me/252907723448?text=Hello%20East%20Africa%20Gemstone%2C%20I%20would%20like%20to%20ask%20about%20a%20stone%20or%20mineral." target="_blank" rel="noopener">💬 Message on WhatsApp</a><br><a class="btn outline" href="https://www.facebook.com/eastAfricagemstone" target="_blank" rel="noopener">Follow on Facebook</a></div>
+  <div><div class="eyebrow">Start a conversation</div><h2 class="title">Have a stone to check?</h2><p class="lead">Send us a message on WhatsApp. Include photos of the specimen, where it was found, and what you want to know.</p></div>
+  <div class="contactbox"><h3>Somalia Gemstone & Minerals</h3><p>Gemstone Identification • Laboratory Testing • Mineral Testing • Gold Testing • Gemstone Marketing</p><a class="btn gold" href="https://wa.me/252907723448" target="_blank" rel="noopener">Message us</a></div>
 </div></section>
 
 <footer><div class="wrap foot"><div>© 2026 Somalia Gemstone & Minerals</div><div>Somalia • East Africa</div></div></footer>
