@@ -25,22 +25,24 @@ nav{position:sticky;top:0;z-index:30;background:rgba(251,250,246,.97);backdrop-f
 .links a:hover,.links a:focus-visible{color:var(--gold)}
 .menu-toggle{display:none;border:1px solid var(--line);background:#fff;color:var(--deep);border-radius:8px;padding:8px 12px;font-size:24px;cursor:pointer}
 .hero{background:linear-gradient(120deg,#0f2e25 0%,#1b4938 58%,#243d34 100%);color:white;padding:86px 0 80px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0[...]
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0 90px rgba(216,182,106,.02)}
 .hero-inner{position:relative;z-index:1}
-.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p[...]
+.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p{font-size:20px;max-width:620px;color:rgba(255,255,255,.9)}
+.buttons{display:flex;flex-wrap:wrap;gap:14px;margin-top:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:800;font-size:15px;border:none;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
 .btn:hover,.btn:focus-visible{transform:translateY(-1px);box-shadow:0 10px 18px rgba(16,38,30,.18)}
 .gold{background:var(--gold);color:#14221d}.outline{border:1px solid rgba(255,255,255,.35);color:white;background:transparent}
-section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:[...]}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px r[...]
+section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:var(--muted);font-size:18px;max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px rgba(20,34,29,.04)}
+.icon{font-size:32px;margin-bottom:8px}.service h3{margin:0 0 10px;font-size:22px}.service p{margin:0;color:var(--muted)}
 .band{background:#f0ede4;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var([...]
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relativ[...]
-.stone strong{position:relative;z-index:1}
-.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:1[...]
-.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.stat{background:var(--soft);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{displa[...]
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var(--line);padding:18px 18px;border-radius:12px;color:var(--ink);box-shadow:0 8px 18px rgba(20,34,29,.03)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone:nth-child(2){background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone:nth-child(3){background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1573328963927-7f5096d4a35a?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone strong{position:relative;z-index:1}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:18px}
+.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.stat{background:var(--soft);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{display:block;font-size:24px;margin-bottom:8px}.stat span{color:var(--ink);font-weight:700}
 footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 @media(max-width:760px){
-  .links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(251,250,246,.98);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 26px [...]
+  .links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(251,250,246,.98);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 26px rgba(20,34,29,.1)}
   .links.open{display:flex}
   .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
   .grid,.gallery,.about,.contact,.quick-stats{grid-template-columns:1fr}
@@ -135,7 +137,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
       <div class="contactbox">
         <h3>📸 Ready to send your specimen?</h3>
         <p>Open WhatsApp, attach your stone photos, and tell us what you would like identified or tested.</p>
-        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification%20and%20testing." target="_blank" rel="noopener">Send on WhatsApp</a>
+        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification." target="_blank" rel="noopener">Send photos</a>
       </div>
     </div>
   </div>
