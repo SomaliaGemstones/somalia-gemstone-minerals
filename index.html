@@ -25,28 +25,36 @@ nav{position:sticky;top:0;z-index:30;background:rgba(251,250,246,.97);backdrop-f
 .links a:hover,.links a:focus-visible{color:var(--gold)}
 .menu-toggle{display:none;border:1px solid var(--line);background:#fff;color:var(--deep);border-radius:8px;padding:8px 12px;font-size:24px;cursor:pointer}
 .hero{background:linear-gradient(120deg,#0f2e25 0%,#1b4938 58%,#243d34 100%);color:white;padding:86px 0 80px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0 90px rgba(216,182,106,.02)}
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(216,182,106,.28);border-radius:50%;right:-130px;top:-170px;box-shadow:0 0 0 45px rgba(216,182,106,.05),0 0 0 90px rgba(216,182,106,.03)}
 .hero-inner{position:relative;z-index:1}
-.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p{font-size:20px;max-width:620px;color:rgba(255,255,255,.9)}
+.kicker{color:#e6ca87;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;margin:16px 0 20px;max-width:800px}.hero p{font-size:clamp(17px,2.1vw,24px);max-width:730px;margin:0;color:rgba(255,255,255,.9)}
 .buttons{display:flex;flex-wrap:wrap;gap:14px;margin-top:22px}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:800;font-size:15px;border:none;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;font-weight:800;font-size:15px;border:none;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease, background .2s ease}
 .btn:hover,.btn:focus-visible{transform:translateY(-1px);box-shadow:0 10px 18px rgba(16,38,30,.18)}
 .gold{background:var(--gold);color:#14221d}.outline{border:1px solid rgba(255,255,255,.35);color:white;background:transparent}
-section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:var(--muted);font-size:18px;max-width:760px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px rgba(20,34,29,.04)}
+.wa-cta{background:linear-gradient(135deg,#25d366,#1da851);color:#fff;padding:16px 28px;box-shadow:0 12px 26px rgba(37,211,102,.35);border:0}
+.wa-cta:hover,.wa-cta:focus-visible{background:linear-gradient(135deg,#2ae06f,#20b256);color:#fff;box-shadow:0 16px 30px rgba(37,211,102,.42)}
+section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:1.8px;font-weight:800;font-size:12px}.title{font-size:38px;line-height:1.12;margin:9px 0 14px}.lead{color:var(--muted);font-size:18px;max-width:760px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.service{background:var(--card);border:1px solid var(--line);padding:26px;border-radius:14px;box-shadow:0 8px 25px rgba(20,34,29,.05)}
 .icon{font-size:32px;margin-bottom:8px}.service h3{margin:0 0 10px;font-size:22px}.service p{margin:0;color:var(--muted)}
 .band{background:#f0ede4;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var(--line);padding:18px 18px;border-radius:12px;color:var(--ink);box-shadow:0 8px 18px rgba(20,34,29,.03)}
-.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone:nth-child(2){background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone:nth-child(3){background:linear-gradient(135deg,rgba(20,34,29,.58),rgba(181,138,56,.52),rgba(31,58,49,.8)),url('https://images.unsplash.com/photo-1573328963927-7f5096d4a35a?auto=format&fit=crop&w=900&q=80') center/cover no-repeat}.stone strong{position:relative;z-index:1}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.fact{background:#fff;border:1px solid var(--line);padding:18px 16px;border-radius:12px;color:var(--ink)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,#1b4938,#2b624c 42%,#123427)}
+.stone:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at top left,rgba(216,182,106,.32),transparent 35%);}
+.stone strong{position:relative;z-index:1}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:18px}
-.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.stat{background:var(--soft);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{display:block;font-size:24px;margin-bottom:8px}.stat span{color:var(--ink);font-weight:700}
+.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.stat{background:var(--soft);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{display:block;font-size:30px;margin-bottom:4px}
+.stat span{color:var(--ink);font-weight:700}
 footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.wa-floating{position:fixed;right:18px;bottom:18px;z-index:60;display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#25d366,#1ca954);color:#fff;font-size:30px;box-shadow:0 18px 35px rgba(37,211,102,.38);border:3px solid rgba(255,255,255,.8);transition:transform .2s ease, box-shadow .2s ease}
+.wa-floating:hover,.wa-floating:focus-visible{transform:translateY(-2px) scale(1.02);box-shadow:0 22px 42px rgba(37,211,102,.48)}
+.wa-floating svg{width:30px;height:30px;display:block}
 @media(max-width:760px){
-  .links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(251,250,246,.98);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 26px rgba(20,34,29,.1)}
+  .links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(251,250,246,.98);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 26px rgba(16,38,30,.08)}
   .links.open{display:flex}
   .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
   .grid,.gallery,.about,.contact,.quick-stats{grid-template-columns:1fr}
   .hero{padding-top:65px}.title{font-size:32px}.facts{grid-template-columns:1fr}.navin{height:62px}
+  .wa-floating{width:58px;height:58px;right:14px;bottom:14px}
 }
 </style>
 </head>
@@ -63,7 +71,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
       <a href="#about">About</a>
       <a href="#gallery">Minerals</a>
       <a href="#contact">Contact</a>
-      <a class="btn gold" href="https://wa.me/252907723448" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn wa-cta" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20chat%20about%20a%20stone%20or%20mineral." target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
     </div>
   </div>
 </nav>
@@ -74,7 +82,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
     <h1>Know your stone.<br>Know its value.</h1>
     <p>Professional gemstone and mineral services for identification, testing, gold verification and gemstone marketing.</p>
     <div class="buttons">
-      <a class="btn gold" href="https://wa.me/252907723448" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+      <a class="btn wa-cta" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20chat%20about%20a%20stone%20or%20mineral." target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
       <a class="btn outline" href="#contact">Contact Us</a>
     </div>
     <div class="quick-stats" aria-label="Business highlights">
@@ -137,7 +145,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
       <div class="contactbox">
         <h3>📸 Ready to send your specimen?</h3>
         <p>Open WhatsApp, attach your stone photos, and tell us what you would like identified or tested.</p>
-        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification." target="_blank" rel="noopener">Send photos</a>
+        <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20send%20photos%20of%20a%20stone%20for%20identification." target="_blank" rel="noopener">Chat on WhatsApp</a>
       </div>
     </div>
   </div>
@@ -152,11 +160,15 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
   <div class="contactbox">
     <h3>Somalia Gemstone &amp; Minerals</h3>
     <p>Gemstone Identification • Laboratory Testing • Mineral Testing • Gold Testing • Gemstone Marketing</p>
-    <a class="btn gold" href="https://wa.me/252907723448" target="_blank" rel="noopener">Message us</a>
+    <a class="btn gold" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20want%20to%20ask%20about%20a%20stone%20for%20identification." target="_blank" rel="noopener">Chat on WhatsApp</a>
   </div>
 </div></section>
 
 <footer><div class="wrap foot"><div>© 2026 Somalia Gemstone &amp; Minerals</div><div>Somalia • East Africa</div></div></footer>
+
+<a class="wa-floating" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20chat%20about%20a%20stone%20or%20mineral." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .1 5.39.1 12.05c0 2.12.55 4.19 1.6 6.01L0 24l6.08-1.6A11.98 11.98 0 0 0 12.06 24c6.57 0 11.96-5.39 11.96-12.05 0-3.22-1.25-6.25-3.5-8.47Zm-8.46 18.45c-1.82 0-3.61-.49-5.18-1.41l-.37-.22-3.6.95 1-3.5-.24-.37a9.74 9.74 0 0 1 1.53-12.06A9.9 9.9 0 0 1 12.06 2.1c5.15 0 9.35 4.2 9.35 9.35 0 5.15-4.2 9.35-9.35 9.35Zm5.14-7.01c-.28-.14-1.66-.82-1.92-.91-.25-.1-.44-.14-.62.14-.18.28-.7.91-.86 1.1-.16.18-.32.2-.6.07-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.13.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.62-1.49-.85-2.04-.22-.52-.45-.45-.62-.46l-.53-.01c-.18 0-.48.07-.73.34-.25.28- .96.93-.96 2.28s.98 2.64 1.12 2.82c.14.18 1.93 2.95 4.68 4.13.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.66-.68 1.89-1.34.23-.66.23-1.23.16-1.34-.07-.12-.25-.2-.53-.34Z"/></svg>
+</a>
 
 <script>
   const menuToggle = document.querySelector('.menu-toggle');
