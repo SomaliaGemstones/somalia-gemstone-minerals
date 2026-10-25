@@ -10,6 +10,7 @@
   --ink:#14221d; --muted:#65736d; --paper:#fbfaf6; --card:#fff; --line:#e7e2d7;
   --gold:#b58a38; --deep:#16382d; --accent:#d8b66a; --soft:#f1eadb; --shadow:rgba(20,34,29,.08);
   --facebook:#1877f2;
+  --success:#25d366;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -44,6 +45,15 @@ section{padding:76px 0}.eyebrow{color:var(--gold);text-transform:uppercase;lette
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.stone{min-height:210px;border-radius:14px;padding:22px;display:flex;align-items:end;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,#1b4938,#2b624c 42%,#123427)}
 .stone:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at top left,rgba(216,182,106,.32),transparent 35%);}
 .stone strong{position:relative;z-index:1}
+.review-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+.review-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;box-shadow:0 10px 24px rgba(20,34,29,.05);display:flex;flex-direction:column;gap:14px}
+.review-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.stars{color:#f6b500;letter-spacing:2px;font-size:18px}
+.review-card p{margin:0;color:var(--muted);font-size:15px;line-height:1.7}
+.person{display:flex;align-items:center;gap:10px;min-height:52px}
+.person-badge{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#1b4938,#b58a38);color:#fff;font-weight:700;display:inline-flex;align-items:center;justify-content:center}
+.person strong{display:block;font-size:15px}
+.person span{display:block;color:var(--muted);font-size:12px}
 .contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:var(--deep);color:#fff;padding:35px;border-radius:16px}.contactbox p{color:#d8e2dc}.contactbox .btn{margin-top:18px}
 .quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.stat{background:var(--soft);border:1px solid var(--line);padding:22px;border-radius:14px}.stat strong{display:block;font-size:30px;margin-bottom:4px}
 .stat span{color:var(--ink);font-weight:700}
@@ -58,7 +68,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
   .links{display:none;position:absolute;top:72px;left:0;right:0;background:rgba(251,250,246,.98);flex-direction:column;padding:18px 22px;border-bottom:1px solid var(--line);box-shadow:0 12px 26px rgba(16,38,30,.08)}
   .links.open{display:flex}
   .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
-  .grid,.gallery,.about,.contact,.quick-stats{grid-template-columns:1fr}
+  .grid,.gallery,.about,.contact,.quick-stats,.review-wrap{grid-template-columns:1fr}
   .hero{padding-top:65px}.title{font-size:32px}.facts{grid-template-columns:1fr}.navin{height:62px}
   .social-floating{right:14px;bottom:14px}
   .social-floating a{width:58px;height:58px}
@@ -77,6 +87,7 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
       <a href="#services">Services</a>
       <a href="#about">About</a>
       <a href="#gallery">Minerals</a>
+      <a href="#reviews">Reviews</a>
       <a href="#contact">Contact</a>
       <a class="btn fb-cta" href="https://www.facebook.com/eastAfricagemstone/" target="_blank" rel="noopener">FACEBOOK</a>
       <a class="btn wa-cta" href="https://wa.me/252907723448?text=Hello%20Somalia%20Gemstone%20%26%20Minerals%20Co.%2C%20I%20would%20like%20to%20chat%20about%20a%20stone%20or%20mineral." target="_blank" rel="noopener">💬 WhatsApp</a>
@@ -128,6 +139,50 @@ footer{background:#10261f;color:#cdd9d3;padding:30px 0;font-size:13px}.foot{disp
     <div class="fact"><b>🔬 Testing</b> Mineral &amp; laboratory services</div>
     <div class="fact"><b>🥇 Gold</b> Verification and support</div>
     <div class="fact"><b>🤝 Trade</b> Buying and selling guidance</div>
+  </div>
+</div></section>
+
+<section id="reviews"><div class="wrap">
+  <div class="eyebrow">Faallooyinka macaamiisha</div>
+  <h2 class="title">Maxay dadku yiraahdaan?</h2>
+  <p class="lead">Dad badan oo u baahan aqoon, tijaabo iyo talo ku saabsan dhagaxyada iyo macdanta ayaa naga warqaday.</p>
+
+  <div class="review-wrap">
+    <article class="review-card">
+      <div class="review-top">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <span class="eyebrow" style="margin:0">Faallo</span>
+      </div>
+      <p>“Adeegga aad u wanaagsan, waana la sharaxay wax walba si cad. Waxaan aad ugu qanacsanahay talada ay bixiyeen ee ku saabsan qiimaha iyo aqoonsiga dhagaxa.”</p>
+      <div class="person">
+        <div class="person-badge">A</div>
+        <div><strong>Abdullahi</strong><span>Macaamiil la xaqiijiyay</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="review-top">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <span class="eyebrow" style="margin:0">Faallo</span>
+      </div>
+      <p>“Waan ka helnay jawaab degdeg ah, wado ku cad oo macno leh. Waxa ay naga caawisay inaan fahamno dahabka iyo macdanta oo sidiisa ah.”</p>
+      <div class="person">
+        <div class="person-badge">M</div>
+        <div><strong>Mohamed</strong><span>Macaamiil la xaqiijiyay</span></div>
+      </div>
+    </article>
+
+    <article class="review-card">
+      <div class="review-top">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <span class="eyebrow" style="margin:0">Faallo</span>
+      </div>
+      <p>“Aqoonta ay leeyihiin dhagaxyada iyo tijaabada way naga caawisay. Waxaan ku kalsoonahay taladooda, waxayna naga dhigtay in aan go’aan wanaagsan qaadno.”</p>
+      <div class="person">
+        <div class="person-badge">S</div>
+        <div><strong>Sara</strong><span>Macaamiil la xaqiijiyay</span></div>
+      </div>
+    </article>
   </div>
 </div></section>
 
